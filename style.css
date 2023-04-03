@@ -1,0 +1,65 @@
+html{
+    background-color: #020923;
+    color: white;
+}
+.Contenido {
+    background-image: url(Fondo.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    overflow: hidden;
+    opacity: 0.20;
+    z-index: -1;
+}
+
+#maintenance {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#maintenance h1 {
+    font: 600 28px/34px "Open Sans", sans-serif;
+    text-transform: uppercase;
+    border-bottom: 1px solid #d6d4d4;
+    padding: 0 0 14px 0;
+    margin: 0 0 19px 0;
+}
+#maintenance #message {
+    font: 600 16px/31px "Open Sans", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer{
+    margin-top: 14px;
+    border-top: 1px solid #d6d4d4;
+    font: 50 12px/24px "Open Sans", sans-serif;
+    text-align: center;
+}
+@media only screen and (max-width : 599px) {
+    img{
+        width: 95%;
+    }
+}
+@media only screen and (max-width : 768px) {
+    #maintenance{
+        width: 100%;
+    }
+}
+@media only screen and (max-width : 375px) {
+    #maintenance #message {
+        font-size: small;
+    }
+}
